@@ -14,7 +14,19 @@ header {
 .actions > button:first-child {
   margin-right: 16px;
 }
-.actions > button:nth-child(2) {
-  margin-right: 27px;
+.actions > button:last-child {
+  margin-left: 27px;
+}
+
+@media screen and (max-width: 500px) {
+  .actions > button:last-child {
+    display: none;
+  }
+  .actions > button:first-child {
+    margin-right: 12px;
+  }
+  .actions > .btn {
+    width: 72px;
+  }
 }
 

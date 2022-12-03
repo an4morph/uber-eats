@@ -12,6 +12,13 @@
   width: 956px;
   margin: 0 auto;
 }
+@media screen and (max-width: 972px) {
+  .container {
+    width: 100%;
+    padding: 0 8px;
+  }
+}
+
 
 button {
   background-color: transparent;
