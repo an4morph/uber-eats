@@ -7,3 +7,27 @@
 
   font-family: 'Roboto', sans-serif;
 }
+
+.container {
+  width: 956px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+.btn {
+  width: 80px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 13px;
+  border-radius: 2px;
+}
+.btn.primary {
+  background-color: #262626;
+  color: #fff;
+}
+.btn.secondary {
+  border: 1px solid #E0E0E0;
+}
