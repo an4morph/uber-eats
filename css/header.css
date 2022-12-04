@@ -7,14 +7,14 @@ header {
   justify-content: space-between;
   height: 72px;
 }
-.actions {
+header .actions {
   display: flex;
   align-items: center;
 }
-.actions > button {
+header .actions > button {
   margin-left: 16px;
 }
-.actions > button:first-child {
+header .actions > button:first-child {
   margin-left: 0;
 }
 .icon-button {
@@ -26,13 +26,13 @@ header {
 }
 
 @media screen and (max-width: 620px) {
-  .actions > button:last-child {
+  header .actions > button:last-child {
     display: none;
   }
-  .actions > button {
+  header .actions > button {
     margin-left: 12px;
   }
-  .actions > .btn {
+  header .actions > .btn {
     width: 72px;
   }
 }

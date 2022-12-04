@@ -1,6 +1,7 @@
 @import url(./css/header.css);
 @import url(./css/hero.css);
 @import url(./css/nav.css);
+@import url(./css/catalog.css);
 
 * {
   box-sizing: border-box;
@@ -24,7 +25,9 @@ body {
   }
 }
 
-
+h1, h2, h3, h4 {
+  font-weight: 400;
+}
 button {
   background-color: transparent;
   border: none;
