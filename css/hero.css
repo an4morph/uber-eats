@@ -1,6 +1,7 @@
 .hero {
   width: 100%;
-  background-color: #ccc;
+  background-image: url(../img/hero-bg.png);
+  background-size: cover;
 }
 .hero-inner {
   height: 364px;
@@ -11,8 +12,29 @@
   background-color: #fff;
   padding: 38px;
   border-radius: 2px;
-  width: 389px;
-  border: 1px solid;
+  min-width: 389px;
+  box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+}
+.resto-card h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 62px;
+}
+.resto-card .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.resto-card .price {
+  font-size: 14px;
+  color: #626262;
+}
+.resto-card .info {
+  font-size: 13px;
+  color: #fff;
+  background-color: #262626;
+  border-radius: 16px;
+  padding: 8px 16px;
 }
 
 @media screen and (max-width: 500px) {
@@ -24,5 +46,21 @@
     position: absolute;
     bottom: -56px;
     width: calc(100% - 16px);
+    min-width: auto;
+  }
+  .resto-card h1 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .resto-card .bottom {
+    flex-direction: column;
+  }
+  .resto-card .price {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .resto-card .info {
+    font-size: 15px;
   }
 }

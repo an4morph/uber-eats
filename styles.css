@@ -8,6 +8,9 @@
 
   font-family: 'Roboto', sans-serif;
 }
+body {
+  color: #262626;
+}
 
 .container {
   width: 956px;
