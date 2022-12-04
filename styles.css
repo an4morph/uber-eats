@@ -60,3 +60,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.text-ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
