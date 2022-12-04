@@ -7,10 +7,39 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+.footer-menu > * {
+  width: calc(100% / 3);
+  padding-right: 15px;
+}
 footer .divider {
   margin: 40px 0;
   border: none;
   background-color: #fff;
   height: 1px;
   opacity: 0.4;
+}
+footer .hash {
+  color: #49A144;
+}
+footer .icons {
+  display: flex;
+  margin-top: 17px;
+}
+footer .icons a {
+  margin-right: 12px;
+}
+footer .icons a:last-child {
+  margin-right: 0;
+}
+footer .icons a:hover path {
+  fill: #49A144;
+}
+footer li {
+  margin-bottom: 23px;
+}
+footer li:last-child {
+  margin-bottom: 0;
+}
+footer a:hover {
+  color: #49A144;
 }
