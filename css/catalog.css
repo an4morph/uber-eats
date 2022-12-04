@@ -85,7 +85,9 @@
   }
   .catalog .underline {
     display: block;
-    border: 1px solid #757575;
+    background-color: #757575;
+    border: none;
+    height: 1px;
     width: 50px;
     margin: 0 auto 40px;
   }

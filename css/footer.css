@@ -1,0 +1,16 @@
+footer {
+  background-color: #1D1D1D;
+  color: #fff;
+  padding: 56px 0 52px;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+}
+footer .divider {
+  margin: 40px 0;
+  border: none;
+  background-color: #fff;
+  height: 1px;
+  opacity: 0.4;
+}
