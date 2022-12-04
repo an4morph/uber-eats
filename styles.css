@@ -24,6 +24,7 @@
 button {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 .btn {
   width: 80px;
@@ -32,10 +33,18 @@ button {
   font-size: 13px;
   border-radius: 2px;
 }
+.btn.primary:hover {
+  background-color: #57AD56;
+}
 .btn.primary {
   background-color: #262626;
   color: #fff;
 }
 .btn.secondary {
   border: 1px solid #E0E0E0;
+}
+.btn.secondary:hover {
+  background-color: #57AD56;
+  border: none;
+  color: #fff;
 }

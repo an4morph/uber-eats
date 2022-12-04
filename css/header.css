@@ -11,23 +11,26 @@ header {
   display: flex;
   align-items: center;
 }
+.actions > button {
+  margin-left: 16px;
+}
 .actions > button:first-child {
-  margin-right: 16px;
+  margin-left: 0;
 }
-.actions > button:last-child {
-  margin-left: 27px;
+.icon-button {
+  width: 40px;
+  height: 40px;
 }
-
 .icon-button:hover path {
-  fill: red;
+  fill: #57AD56;
 }
 
 @media screen and (max-width: 500px) {
   .actions > button:last-child {
     display: none;
   }
-  .actions > button:first-child {
-    margin-right: 12px;
+  .actions > button {
+    margin-left: 12px;
   }
   .actions > .btn {
     width: 72px;
