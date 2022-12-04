@@ -25,7 +25,7 @@ header {
   fill: #57AD56;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 620px) {
   .actions > button:last-child {
     display: none;
   }

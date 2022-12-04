@@ -37,7 +37,7 @@
   padding: 8px 16px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 620px) {
   .hero-inner {
     height: 255px;
     position: relative;

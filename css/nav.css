@@ -1,0 +1,29 @@
+nav {
+  background: #FFFFFF;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+nav menu {
+  display: flex;
+  list-style: none;
+  padding: 32px 0 29px;
+  color: #626262;
+}
+nav menu li {
+  margin-right: 40px;
+}
+nav menu li.active {
+  color: #327430;
+}
+nav menu li:last-child {
+  margin-right: 0;
+}
+nav menu a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 620px) {
+  nav {
+    display: none;
+  }
+}
