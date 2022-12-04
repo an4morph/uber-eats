@@ -8,7 +8,10 @@
 .catalog .actions button {
   margin-right: 10px;
 }
-
+.catalog .grid {
+  display: flex;
+  flex-wrap: wrap;
+}
 .catalog h1 {
   margin-bottom: 32px;
   line-height: 34px;
@@ -18,13 +21,19 @@
   display: none;
 }
 .catalog .item {
+  width: calc(50% - 8px);
+  height: 160px;
   border: 1px solid rgba(117, 117, 117, 0.2);
   border-radius: 2px;
   padding: 16px 24px;
   display: flex;
   position: relative;
-  height: 160px;
   overflow: hidden;
+  margin-bottom: 49px;
+  margin-right: 16px;
+}
+.catalog .item:nth-child(2n) {
+  margin-right: 0;
 }
 .catalog .item img {
   width: 170px;
@@ -55,6 +64,14 @@
   font-weight: 500;
 }
 
+@media screen and (max-width: 972px) {
+  .catalog .item {
+    margin-bottom: 32px;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .catalog {
     padding: 112px 0 43px;
@@ -78,6 +95,7 @@
     border-right: none;
     height: 102px;
     padding: 0;
+    margin-bottom: 16px;
   }
   .catalog .item img {
     width: 102px;
