@@ -18,6 +18,10 @@ header {
   margin-left: 27px;
 }
 
+.icon-button:hover path {
+  fill: red;
+}
+
 @media screen and (max-width: 500px) {
   .actions > button:last-child {
     display: none;

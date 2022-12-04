@@ -1,0 +1,28 @@
+.hero {
+  width: 100%;
+  background-color: #ccc;
+}
+.hero-inner {
+  height: 364px;
+  display: flex;
+  align-items: center;
+}
+.resto-card {
+  background-color: #fff;
+  padding: 38px;
+  border-radius: 2px;
+  width: 389px;
+  border: 1px solid;
+}
+
+@media screen and (max-width: 500px) {
+  .hero-inner {
+    height: 255px;
+    position: relative;
+  }
+  .resto-card {
+    position: absolute;
+    bottom: -56px;
+    width: calc(100% - 16px);
+  }
+}
