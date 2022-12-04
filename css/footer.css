@@ -2,10 +2,14 @@ footer {
   background-color: #1D1D1D;
   color: #fff;
   padding: 56px 0 52px;
+  font-size: 13px;
 }
 .footer-menu {
   display: flex;
   justify-content: space-between;
+}
+footer .copy-line {
+  font-size: 11px;
 }
 .footer-menu > * {
   width: calc(100% / 3);
@@ -17,6 +21,12 @@ footer .divider {
   background-color: #fff;
   height: 1px;
   opacity: 0.4;
+}
+footer .social {
+  margin-bottom: 39px;
+}
+footer .hashtag {
+  font-size: 16px;
 }
 footer .hash {
   color: #49A144;
@@ -34,12 +44,22 @@ footer .icons a:last-child {
 footer .icons a:hover path {
   fill: #49A144;
 }
-footer li {
+footer li, .copy-line > * {
   margin-bottom: 23px;
 }
-footer li:last-child {
+footer li.last-link {
   margin-bottom: 0;
 }
 footer a:hover {
   color: #49A144;
+}
+
+@media screen and (max-width: 620px) {
+  .footer-menu {
+    flex-direction: column;
+  }
+  .footer-menu > * {
+    width: 100%;
+    padding-right: 0;
+  }
 }
